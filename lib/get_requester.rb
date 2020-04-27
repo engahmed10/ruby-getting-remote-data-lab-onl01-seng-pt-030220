@@ -20,8 +20,8 @@ class GetRequester
 
   def parse_json
 
-    JSON.parse(get_response_body)
-
+    aa=JSON.parse(get_response_body)
+   binding.pry
   end
 
 
