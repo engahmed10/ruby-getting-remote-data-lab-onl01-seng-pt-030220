@@ -15,7 +15,6 @@ class GetRequester
     data=  uri.open.string
     #@response = Net::HTTP.get_response(uri) #second way
     #res=@response.body
-    #binding.pry
   end
 
   def parse_json
