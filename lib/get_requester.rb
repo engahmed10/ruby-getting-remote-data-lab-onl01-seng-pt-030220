@@ -14,7 +14,7 @@ class GetRequester
     uri = URI.parse(@url)
   #  @data=  uri.open.string
     @response = Net::HTTP.get_response(uri)
-    
+
     #binding.pry
   end
 
